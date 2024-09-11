@@ -1,4 +1,6 @@
 import math
+def myFactorial(n: int):
+    return math.factorial(n)
 while True:
     try:
         n = int(input("n = "))
