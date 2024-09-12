@@ -16,7 +16,7 @@ num = 1
 prevNum = 0
 tempNum = 0
 n = int(input("N?"))
-while n>=0:
+while n>0:
     print(prevNum)
     tempNum=num
     num +=prevNum
